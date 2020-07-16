@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src='https://github.com/cgmbauer/assets/blob/master/gobarber/logo.svg' alt='GoBarber logo' width="200px" height="123px" />
+  <img src='https://github.com/cgmbauer/assets/blob/master/gobarber/logo.svg' alt='GoBarber logo' width="400px" />
 </p>
 
 # GoBarber
