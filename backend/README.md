@@ -3,8 +3,6 @@
 </p>
 
 # GoBarber - Backend
-
-GoBarber is an application designed to allow the appointment of customers of a barber shop.
   
  This folder is responsible for the back-end of the application.
 
