@@ -4,7 +4,7 @@
 
 # GoBarber
 
-GoBarber is an application designed to allow the appointment of customers of a barber shop.
+GorBarber is an application design to facilitate the scheduling of barbershop services, allowing registration and interaction between customers and barbers.
 
 **This is an ongoing project. I'll be updating this readme very soon with new information**
 
