@@ -49,7 +49,8 @@
       }
     ],
     "react/jsx-props-no-spreading": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "no-unused-expressions": "off"
   },
   "settings": {
     "import/resolver": {
