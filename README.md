@@ -30,7 +30,7 @@ git clone https://github.com/cgmbauer/gobarber.git
 
 ## How to Use:
 
-- **To be written**
+- :construction: **Work in progress** :construction:
 
 ## Acknowledgment
 
