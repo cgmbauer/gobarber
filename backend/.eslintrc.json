@@ -31,6 +31,19 @@
         }
       ],
       "prettier/prettier": "error",
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": "interface",
+          "format": ["PascalCase"],
+          "custom": {
+            "regex": "^I[A-Z]",
+            "match": true
+          }
+        }
+      ],
+      "camelcase": "off",
+      "no-useless-constructor": "off",
       "class-methods-use-this": "off"
     },
     "settings": {
