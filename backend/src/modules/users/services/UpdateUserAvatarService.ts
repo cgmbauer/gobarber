@@ -15,7 +15,7 @@ interface IRequestDTO {
   avatarFileName: string;
 }
 
-injectable();
+@injectable()
 class UpdateUserAvatarService {
   constructor(
     @inject('UsersRepository')

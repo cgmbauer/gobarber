@@ -21,7 +21,7 @@ interface IResponse {
   token: string;
 }
 
-injectable();
+@injectable()
 class AuthenticateUserService {
   constructor(
     @inject('UsersRepository')
