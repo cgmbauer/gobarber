@@ -1,3 +1,5 @@
+import AppError from '@shared/errors/AppError';
+
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 
 import CreateAppointmentService from './CreateAppointmentService';
@@ -19,8 +21,25 @@ describe('CreateAppointment', () => {
   });
 });
 
-// describe('CreateAppointment', () => {
-//   it('it should not be able to create two appointments on the sime time', () => {
+describe('CreateAppointment', () => {
+  it('it should not be able to create two appointments on the sime time', async () => {
+    const fakeAppointmentsRepository = new FakeAppointmentsRepository();
+    const createAppointmnet = new CreateAppointmentService(
+      fakeAppointmentsRepository,
+    );
 
-//   })
-// })
+    const appointmentDate = new Date(2020, 4, 10, 11);
+
+    const appointment = await createAppointmnet.execute({
+      date: appointmentDate,
+      provider_id: '123456789',
+    });
+
+    expect(
+      createAppointmnet.execute({
+        date: appointmentDate,
+        provider_id: '123456789',
+      }),
+    ).rejects.toBeInstanceOf(AppError);
+  });
+});
