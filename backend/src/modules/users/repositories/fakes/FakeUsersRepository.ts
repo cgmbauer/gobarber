@@ -5,7 +5,6 @@ import ICreateUserDTO from '@modules/users/dtos/ICreateUserDTO';
 
 import User from '@modules/users/infra/typeorm/entities/Users';
 
-
 class UsersRepository implements IUsersRepository {
   private users: User[] = [];
 
@@ -19,7 +18,6 @@ class UsersRepository implements IUsersRepository {
     const findUser = this.users.find(user => user.email === email);
 
     return findUser;
-
   }
 
   public async create({
@@ -29,7 +27,7 @@ class UsersRepository implements IUsersRepository {
   }: ICreateUserDTO): Promise<User> {
     const user = new User();
 
-    Object.assign(user, { id: uuid(), name, email, password})
+    Object.assign(user, { id: uuid(), name, email, password });
 
     this.users.push(user);
 
