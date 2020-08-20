@@ -13,7 +13,9 @@ GorBarber is an application design to facilitate the scheduling of barbershop se
 
 - [Nodejs v.12.18.0](https://nodejs.org/en/);
 
-- [ReactJS v.16.13.1](https://reactjs.org/).
+- [ReactJS v.16.13.1](https://reactjs.org/);
+
+- [React Native](https://reactnative.dev/).
 
 ## Getting Started
 
@@ -27,7 +29,7 @@ GorBarber is an application design to facilitate the scheduling of barbershop se
 ```sh
 git clone https://github.com/cgmbauer/gobarber.git
 ```
-- In your terminal, go inside of both the `backend` and the `frontend`  folder and execute the command ```yarn```.
+- In your terminal, go inside of both the `backend` and the `frontend (web and mobile)` folders and execute the command ```yarn```.
 
 ## How to Use:
 
