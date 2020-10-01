@@ -61,8 +61,17 @@ export const Profile = styled.div`
       color: #f4ede8;
     }
 
-    strong {
-      color: #ff9000;
+    a {
+      text-decoration: none;
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 0.85;
+      }
+
+      strong {
+        color: #ff9000;
+      }
     }
   }
 `;
@@ -182,6 +191,10 @@ export const Session = styled.section`
     padding-bottom: 16px;
     margin-bottom: 16px;
   }
+
+  > p {
+    color: #999591;
+  }
 `;
 
 export const Appointment = styled.div`
@@ -198,6 +211,8 @@ export const Appointment = styled.div`
     display: flex;
     align-items: center;
     color: #f4ede8;
+
+    width: 70px;
 
     svg {
       margin-right: 8px;
