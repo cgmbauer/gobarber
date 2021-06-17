@@ -31,10 +31,6 @@ git clone https://github.com/cgmbauer/gobarber.git
 ```
 - In your terminal, go inside of both the `backend` and the `frontend (web and mobile)` folders and execute the command ```yarn```.
 
-## How to Use:
-
-- :construction: **Work in progress** :construction:
-
 ## Acknowledgment
 
 - [Rocketseat](https://rocketseat.com.br/)
